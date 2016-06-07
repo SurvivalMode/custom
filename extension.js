@@ -46,21 +46,21 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-      botName: "basicBot",
+      botName: "gladiatorBot",
       language: "english",
       chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
       scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
       startupCap: 1, // 1-200
-      startupVolume: 0, // 0-100
+      startupVolume: 10, // 0-100
       startupEmoji: false, // true or false
       autowoot: true,
       autoskip: false,
       smartSkip: true,
       cmdDeletion: true,
       maximumAfk: 120,
-      afkRemoval: true,
-      maximumDc: 60,
+      afkRemoval: false,
+      maximumDc: 120,
       bouncerPlus: true,
       blacklistEnabled: true,
       lockdownEnabled: false,

@@ -90,7 +90,7 @@
       afkpositionCheck: 15,
       afkRankCheck: "ambassador",
       motdEnabled: true,
-      motdInterval: 15,
+      motdInterval: 20,
       motd: "Welcome to the MC Gladiators Official Plug.DJ! Be sure to join us in game [ play.mc-gladiators.com ] or join our discord [ https://discord.gg/0v4d6vytH79wm6vq ]!",
       filterChat: true,
       etaRestriction: true,
@@ -101,8 +101,11 @@
       fbLink: null,
       youtubeLink: null,
       website: "http://www.mc-gladiators.com/",
-      intervalMessages: [],
-      messageInterval: 5,
+      intervalMessages: [ "/me Find a full list of user commands here: [ http://bit.ly/userCommands ]",
+          "/me Join in on the fun! [ play.mc-gladiators.com ]",
+          "/me Chat with users! [ gladiators.enjinvoice.com ]"
+          ],
+      messageInterval: 8,
       songstats: false,
       commandLiteral: "!",
       blacklists: {

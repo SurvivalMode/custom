@@ -97,7 +97,7 @@
       etaRestriction: true,
       welcome: false,
       opLink: "Overplaying songs will result in them getting blacklisted!",
-      rulesLink: null,
+      rulesLink: "http://bit.ly/networkRules",
       themeLink: null,
       fbLink: null,
       youtubeLink: null,

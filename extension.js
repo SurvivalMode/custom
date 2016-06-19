@@ -49,7 +49,7 @@
       botName: "gladiatorBot",
       language: "english",
       chatLink: "https://rawgit.com/SurvivalMode/custom/master/lang/en.json",
-      scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
+      scriptLink: "https://rawgit.com/SurvivalMode/source/master/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
       startupCap: 1, // 1-200
       startupVolume: 10, // 0-100
@@ -102,9 +102,9 @@
       fbLink: null,
       youtubeLink: null,
       website: "http://www.mc-gladiators.com/",
-      intervalMessages: [ "/me Find a full list of user commands here: [ http://bit.ly/userCommands ]",
-          "/me Join in on the fun! [ play.mc-gladiators.com ]",
-          "/me Chat with users! [ gladiators.enjinvoice.com ]"
+      intervalMessages: [ "\/me Find a full list of user commands here: [ http://bit.ly/userCommands ]",
+          "\/me Join in on the fun! [ play.mc-gladiators.com ]",
+          "\/me Chat with users! [ gladiators.enjinvoice.com ]"
           ],
       messageInterval: 8,
       songstats: false,

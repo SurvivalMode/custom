@@ -48,7 +48,7 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
       botName: "gladiatorBot",
       language: "english",
-      chatLink: "https://rawgit.com/SurvivalMode/custom/master/lang/en.json",
+      chatLink: "https://rawgit.com/SurvivalMode/source/master/lang/en.json",
       scriptLink: "https://rawgit.com/SurvivalMode/source/master/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
       startupCap: 1, // 1-200

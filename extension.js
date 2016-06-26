@@ -97,7 +97,7 @@
       etaRestriction: true,
       welcome: false,
       opLink: "http://bit.ly/botOPList",
-      rulesLink: "http://bit.ly/networkRules",
+      rulesLink: "http://bit.ly/plugRules",
       themeLink: "Anything!",
       fbLink: null,
       youtubeLink: null,

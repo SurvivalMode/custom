@@ -46,7 +46,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-      botName: "gladiatorBot",
+      botName: "honeyComb",
       language: "english",
       chatLink: "https://rawgit.com/SurvivalMode/source/master/lang/en.json",
       scriptLink: "https://rawgit.com/SurvivalMode/source/master/basicBot.js",
@@ -96,7 +96,7 @@
       filterChat: true,
       etaRestriction: true,
       welcome: false,
-      opLink: "http://bit.ly/botOPList",
+      opLink: null,
       rulesLink: "http://bit.ly/plugRules",
       themeLink: "Anything!",
       fbLink: null,

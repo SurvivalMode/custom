@@ -108,7 +108,7 @@
           ],
       messageInterval: 8,
       songstats: false,
-      commandLiteral: "!",
+      commandLiteral: "$",
       blacklists: {
         NSFW: "https://rawgit.com/SurvivalMode/custom/master/blacklists/NSFWlist.json",
         OP: "https://rawgit.com/SurvivalMode/custom/master/blacklists/OPlist.json",
